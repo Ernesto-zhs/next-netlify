@@ -3,14 +3,14 @@ import '../styles/globals.css';
 export const metadata = {
     title: {
         template: '%s | Netlify',
-        default: 'Next Netlify'
+        default: '******'
     }
 };
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="zh" data-theme="lofi">
-            <body></body>
+        <html lang="en">
+            <body>{children}</body>
         </html>
     );
 }
